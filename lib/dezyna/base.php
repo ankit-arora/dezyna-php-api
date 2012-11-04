@@ -57,7 +57,7 @@ class Dezyna_Base {
 			'payable_on' => $payable_on,
 			'reward_string' => $reward_string
 		);
-		return $this->_send_request('/rewards', 'POST');
+		return $this->_send_request('/rewards.json', 'POST');
 	}
 	
 	/**
